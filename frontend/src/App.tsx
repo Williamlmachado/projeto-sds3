@@ -1,10 +1,15 @@
+import DataTable from "components/DataTable";
 
 function App() {
   return (
-    <div>
-      <h1 className="text-primary">Olá Mundo!</h1>
-    </div>
-  );
-}
+    <>
+      <div className="container">
+        <h1 className="text-primary">Olá Mundo!</h1>
 
-export default App;
+        <DataTable/>
+      </div>
+    </>
+        );
+        }
+
+        export default App;
